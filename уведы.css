@@ -66,9 +66,9 @@ body, html {
   
     .new-image {
       position: absolute;
-      top: 28%;
-      left: 0%;
-      transform: scale(1.5) rotate(90deg);
+      top: 20%;
+      left: -6%;
+      transform: scale(1.7) rotate(90deg);
       max-width: 100%;
       height: auto;
     }
@@ -76,8 +76,8 @@ body, html {
     .image-button {
       margin: 0;
       position: absolute;
-      top: 73%;
-      right: 3%;
+      top: 63%;
+      right: 14%;
       transform: scale(0.8);
     }
   }
