@@ -32,7 +32,8 @@ body, html {
   .container {
     width: 100%;
     height: 800px;
-    background-image: url("фон_уведы.JPG"); /* Фон для десктопной версии */
+    overflow: hidden;
+    background-image: url("фон_уведы.png"); /* Фон для десктопной версии */
     background-size: cover;
     background-position: center;
     position: relative; /* Для позиционирования дочерних элементов */
@@ -66,7 +67,7 @@ body, html {
   
     .new-image {
       position: absolute;
-      top: 27%;
+      top: 29%;
       left: -6%;
       transform: scale(1.7) rotate(90deg);
       max-width: 100%;
@@ -76,8 +77,8 @@ body, html {
     .image-button {
       margin: 0;
       position: absolute;
-      top: 76%;
-      right: 13%;
+      top: 79%;
+      right: 7%;
       transform: scale(0.8);
     }
   }
