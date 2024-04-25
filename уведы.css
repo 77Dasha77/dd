@@ -57,7 +57,7 @@ body, html {
   @media (max-width: 400px) {
     .container {
       width: 100%;
-      height: 800px;
+      height: 100%;
       background-image: url("уведы_тел.png"); /* Фон для десктопной версии */
       background-size: cover;
       background-position: center;
@@ -76,8 +76,8 @@ body, html {
     .image-button {
       margin: 0;
       position: absolute;
-      top: 71%;
-      right: 5%;
+      top: 76%;
+      right: 13%;
       transform: scale(0.8);
     }
   }
