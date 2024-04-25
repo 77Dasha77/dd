@@ -77,8 +77,8 @@ body, html {
     .image-button {
       margin: 0;
       position: absolute;
-      top: 79%;
-      right: 7%;
+      top: 85%;
+      right: 6%;
       transform: scale(0.8);
     }
   }
